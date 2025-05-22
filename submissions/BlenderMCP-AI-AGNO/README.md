@@ -1,5 +1,7 @@
 # Blender MCP + AI AGNO Multi-Agent Production Studio
 
+![image]https://raw.githubusercontent.com/trishareddy53/global-agent-hackathon-may-2025/refs/heads/main/.assets/Agno.jpg
+
 ## Overview
 
 This project implements a sophisticated, multi-agent system for controlling Blender using natural language. It leverages the Blender MCP (Multi-Process Communication) addon and the AGNO Agent framework, powered by Google Gemini models. This system orchestrates a team of 17 specialized AI agents to manage a complete 3D production pipeline, from concept to final render, within Blender.
