@@ -1,6 +1,6 @@
 # Blender MCP + AI AGNO Multi-Agent Production Studio
 
-![image]https://raw.githubusercontent.com/trishareddy53/global-agent-hackathon-may-2025/refs/heads/main/.assets/Agno.jpg
+![image](https://raw.githubusercontent.com/trishareddy53/global-agent-hackathon-may-2025/refs/heads/main/.assets/Agno.jpg)
 
 ## Overview
 
