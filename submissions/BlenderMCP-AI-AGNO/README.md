@@ -272,10 +272,8 @@ Usage
 
 ## Contact
 
-**Richardson Gunde**
+**Trisha Reddy Dakkata**
 
-* **GitHub:** [yourusername](https://www.google.com/url?sa=E&q=https%3A%2F%2Fgithub.com%2Fyourusername)
-* **YouTube Demo: [Link to your YouTube demo]**
-* **LinkedIn: [Your LinkedIn Profile URL]**
+* **GitHub:** [trishareddy53](https://www.github.com/trishareddy53)
 
 ---
