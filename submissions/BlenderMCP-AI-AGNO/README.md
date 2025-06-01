@@ -42,7 +42,7 @@ The system connects Blender to a **Coordinator Agent** that manages a team of sp
 
 ## Demo
 
-(https://youtu.be/q4Fvi9vsoBA)
+https://youtu.be/q4Fvi9vsoBA
 
 ## Setup and Installation
 
