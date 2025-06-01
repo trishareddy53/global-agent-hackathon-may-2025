@@ -4,6 +4,25 @@
 
 ## Overview
 
+## Initial idea is to replicate the same Movie production team in blender using AI agents
+
+![image](https://raw.githubusercontent.com/trishareddy53/global-agent-hackathon-may-2025/refs/heads/main/.assets/agno1.jpg)
+
+![image](https://raw.githubusercontent.com/trishareddy53/global-agent-hackathon-may-2025/refs/heads/main/.assets/agno2.jpg)
+
+**Initial Vision & Evolution:** This project began with the idea of replicating a traditional movie production team within Blender using AI agents. It has since evolved into a more ambitious plan: *AGNO Blender Production Studio*, a sophisticated multi-agent system designed to automate comprehensive 3D production workflows using AGNO AI agents running in a coordinated mode, powered by Google Gemini models and leveraging the Blender MCP addon.
+
+
+**Core Challenge & Current Status:**
+While the system demonstrates promising capabilities in orchestrating the 17-agent team through various production stages (Management, Creative Development, Code Synthesis, Asset Creation), a significant roadblock currently exists in the error recovery and state management of the agent workflow.
+
+**The Problem:** When a task fails at a specific agent's step (e.g., a Python script generated for Blender encounters a function call or type error during execution by the Modeling Specialist), the Coordinator agent currently tends to restart the entire workflow from the initial 'Management team' stage.
+**Desired Behavior:** The intended design is for the Coordinator to isolate the failure, re-invoke only the problematic agent (e.g., the Python Code Synthesis Specialist or Modeling Specialist) with context about the error, and guide it to produce a corrected output, allowing the workflow to resume from the point of failure.
+**Impact:** This "restart from scratch" behavior hinders efficiency and makes iterative development and complex scene generation challenging. Maintaining state consistency across 17 agents in a coordinated mode, especially during error recovery, is proving to be a complex task.
+**Example Scenario:** A user requests "a boy holding a phone along with a headset, wearing a blue shirt and black jeans with white sneakers, walking alone on a road surrounded by nature." If the generated Blender Python (bpy/bmesh) code for one of these elements fails, the system ideally should not restart the entire character and scene generation process but focus on fixing the specific faulty code.
+
+Despite this challenge, the foundational architecture for agent communication, task delegation, and integration with Blender via MCP is in place, making this a valuable platform for further development in AI-driven 3D automation.
+
 This project implements a sophisticated, multi-agent system for controlling Blender using natural language. It leverages the Blender MCP (Multi-Process Communication) addon and the AGNO Agent framework, powered by Google Gemini models. This system orchestrates a team of 17 specialized AI agents to manage a complete 3D production pipeline, from concept to final render, within Blender.
 
 The system connects Blender to a **Coordinator Agent** that manages a team of specialist agents. Each agent is responsible for a specific part of the 3D production workflow, such as scriptwriting, concept art, 3D modeling, texturing, rigging, animation, lighting, rendering, and quality assurance. This allows for complex, multi-step 3D asset creation and scene generation through conversational AI.
@@ -23,7 +42,7 @@ The system connects Blender to a **Coordinator Agent** that manages a team of sp
 
 ## Demo
 
-[Link to Your Demo Video Here - e.g., Watch the demo video of the multi-agent studio in action!]
+(https://youtu.be/q4Fvi9vsoBA)
 
 ## Setup and Installation
 
