@@ -4,6 +4,10 @@
 
 ## Overview
 
+This project implements a sophisticated, multi-agent system for controlling Blender using natural language. It leverages the Blender MCP (Multi-Process Communication) addon and the AGNO Agent framework, powered by Google Gemini models. This system orchestrates a team of 17 specialized AI agents to manage a complete 3D production pipeline, from concept to final render, within Blender.
+
+The system connects Blender to a **Coordinator Agent** that manages a team of specialist agents. Each agent is responsible for a specific part of the 3D production workflow, such as scriptwriting, concept art, 3D modeling, texturing, rigging, animation, lighting, rendering, and quality assurance. This allows for complex, multi-step 3D asset creation and scene generation through conversational AI.
+
 ## Initial idea is to replicate the same Movie production team in blender using AI agents
 
 ![image](https://raw.githubusercontent.com/trishareddy53/global-agent-hackathon-may-2025/refs/heads/main/.assets/agno1.jpg)
@@ -22,10 +26,6 @@ While the system demonstrates promising capabilities in orchestrating the 17-age
 **Example Scenario:** A user requests "a boy holding a phone along with a headset, wearing a blue shirt and black jeans with white sneakers, walking alone on a road surrounded by nature." If the generated Blender Python (bpy/bmesh) code for one of these elements fails, the system ideally should not restart the entire character and scene generation process but focus on fixing the specific faulty code.
 
 Despite this challenge, the foundational architecture for agent communication, task delegation, and integration with Blender via MCP is in place, making this a valuable platform for further development in AI-driven 3D automation.
-
-This project implements a sophisticated, multi-agent system for controlling Blender using natural language. It leverages the Blender MCP (Multi-Process Communication) addon and the AGNO Agent framework, powered by Google Gemini models. This system orchestrates a team of 17 specialized AI agents to manage a complete 3D production pipeline, from concept to final render, within Blender.
-
-The system connects Blender to a **Coordinator Agent** that manages a team of specialist agents. Each agent is responsible for a specific part of the 3D production workflow, such as scriptwriting, concept art, 3D modeling, texturing, rigging, animation, lighting, rendering, and quality assurance. This allows for complex, multi-step 3D asset creation and scene generation through conversational AI.
 
 ## Features
 
